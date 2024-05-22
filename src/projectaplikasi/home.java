@@ -64,7 +64,7 @@ public class home extends javax.swing.JFrame {
             }
         });
 
-        bSegitiga.setBackground(new java.awt.Color(0, 0, 255));
+        bSegitiga.setBackground(new java.awt.Color(0, 102, 255));
         bSegitiga.setIcon(new javax.swing.ImageIcon(getClass().getResource("/projectaplikasi/triangle.png"))); // NOI18N
         bSegitiga.setText("SEGITIGA");
         bSegitiga.addActionListener(new java.awt.event.ActionListener() {
