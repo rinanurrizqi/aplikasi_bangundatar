@@ -20,6 +20,9 @@ public class segitiga extends javax.swing.JFrame {
     void reset(){
         tAlas.setText(null);
         tTinggi.setText(null);
+        tSisiAB.setText(null);
+        tSisiBC.setText(null);
+        tSisiCA.setText(null);
         vLuas.setText(null);
         vKeliling.setText(null);
     }
@@ -172,10 +175,10 @@ public class segitiga extends javax.swing.JFrame {
                             .addComponent(tSisiBC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(tSisiCA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(bHitung)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(bReset)
-                            .addComponent(bKembali, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(bKembali, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bHitung))
                         .addGap(33, 33, 33)
                         .addComponent(vLuas)
                         .addGap(18, 18, 18)
